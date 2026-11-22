@@ -1,6 +1,6 @@
-# heart_disease_prediction
-
 # Heart Disease Prediction
+
+**Live App:** [Open the app](https://heartdiseaseprediction-ftjj4pkvs727w5hxjndzzp.streamlit.app/)
 
 A machine learning web app that predicts whether a patient is at **high or low risk of heart disease** from basic health details.
 
