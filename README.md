@@ -22,6 +22,21 @@ I trained and compared 5 classification models on `heart.csv`:
 
 The app uses the **KNN** model. Categorical features are one-hot encoded and numeric features are scaled before prediction.
 
+## Bagging and Boosting Experiment
+I also tried ensemble methods using 5-fold cross-validation:
+
+| Model | Accuracy |
+|---|---|
+| Logistic Regression | 84.1% |
+| AdaBoost | 82.8% |
+| KNN | 82.6% |
+| Random Forest | 82.6% |
+| Gradient Boosting | 81.7% |
+| Bagging | 80.4% |
+| XGBoost | 79.2% |
+
+Ensemble methods did not beat the simple models on this small dataset (918 rows); all scores fall within one standard deviation of each other, so I kept KNN in the app.
+
 ## Tech Stack
 Python, Pandas, Scikit-Learn, Joblib, Streamlit
 
